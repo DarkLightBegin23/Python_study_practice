@@ -7,4 +7,3 @@ for i in score:
     else:
         print("재시험 대상입니다.")
 
-
