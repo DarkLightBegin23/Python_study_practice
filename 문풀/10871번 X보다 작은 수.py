@@ -6,4 +6,3 @@ if N > 0 and X > 0 and N <= 10000 and X <= 10000:  # N과 X의 조건에 따라 
     for i in range(N):  # N번 반복해서
         if A[i] < X:  # A 리스트의 요소 중에서 i번째 수가 X보다 작으면?
             print(A[i], end = ' ')  # 그 요소를 출력할거구 출력하고 한칸씩 띄어쓸거임.
-
