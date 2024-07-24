@@ -1,7 +1,7 @@
 score = [90, 55, 78, 43, 62, 49, 54, 70, 100, 94]       # 학생들의 시험 점수 리스트
 
 number = 0          # 학생마다 붙여줄 번호
-for marks in score:         # for 문(반복문)
+for marks in score:         # for문(반복문)
     number = number + 1
     if marks >= 60:
         print("%d번 학생은 합격입니다." % number)
